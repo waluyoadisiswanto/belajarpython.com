@@ -15,15 +15,16 @@ Jika kondisi bernilai salah `False` maka statement/kondisi `if` tidak akan di-ek
 Dibawah ini adalah contoh penggunaan kondisi if pada Python
 
 ```python
-#Kondisi if adalah kondisi yang akan dieksekusi oleh program jika bernilai benar atau TRUE
+# Kondisi if adalah kondisi yang akan dieksekusi oleh program 
+# jika bernilai benar atau TRUE
 
 nilai = 9
 
-#jika kondisi benar/TRUE maka program akan mengeksekusi perintah dibawahnya
+# Jika kondisi benar/TRUE maka program akan mengeksekusi perintah dibawahnya
 if(nilai > 7):
     print("Sembilan Lebih Besar Dari Angka Tujuh") # Kondisi Benar, Dieksekusi
 
-#jika kondisi salah/FALSE maka program tidak akan mengeksekusi perintah dibawahnya
+# Jika kondisi salah/FALSE maka program tidak akan mengeksekusi perintah dibawahnya
 if(nilai > 10):
     print("Sembilan Lebih Besar Dari Angka Sepuluh") # Kondisi Salah, Maka tidak tereksekusi
 ```
@@ -41,10 +42,12 @@ Kondisi if else adalah kondisi dimana jika pernyataan benar `True` maka kode dal
 Dibawah ini adalah contoh penggunaan kondisi if else pada Python
 
 ```python
-#Kondisi if else adalah jika kondisi bernilai TRUE maka akan dieksekusi pada if, tetapi jika bernilai FALSE maka akan dieksekusi kode pada else
+# Kondisi if else adalah jika kondisi bernilai TRUE maka akan dieksekusi pada if, 
+# tetapi jika bernilai FALSE maka akan dieksekusi kode pada else
 
 nilai = 3
-#Jika pernyataan pada if bernilai TRUE maka if akan dieksekusi, tetapi jika FALSE kode pada else yang akan dieksekusi.
+# Jika pernyataan pada if bernilai TRUE maka if akan dieksekusi, 
+# tetapi jika FALSE kode pada else yang akan dieksekusi.
 if(nilai > 7):
     print("Selamat Anda Lulus")
 else:
@@ -60,7 +63,7 @@ Pengambilan keputusan (kondisi if elif) merupakan lanjutan/percabangan logika da
 Dibawah ini adalah contoh penggunaan kondisi elif pada Python
 
 ```python
-#Contoh penggunaan kondisi elif
+# Contoh penggunaan kondisi elif
 
 hari_ini = "Minggu"
 
